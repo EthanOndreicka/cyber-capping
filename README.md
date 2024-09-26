@@ -1,1 +1,11 @@
-# cyber-capping
+# Quishing Simulation - Marist College
+
+## Description 
+
+This website is used for collecting data and redirecting them to [Marist's Quishing Page](https://www.marist.edu/information-security/cyber-qr)
+
+## How it Works
+
+- Students will scan malicious QR Codes setup across the Marist campus
+- The QR Code will lead to our website where we will collect different metrics
+- After a few seconds, our page will redirect students to Marist's Quishing information page
