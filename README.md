@@ -6,8 +6,8 @@ This website is used for collecting data and redirecting them to [Marist's Quish
 
 ## How it Works
 
-- Students will scan malicious QR Codes setup across the Marist campus
-- The QR Code will lead to our website where we will collect different metrics
+- Students will scan 'malicious' QR Codes setup across the Marist campus
+- The QR code will lead to our website, where we will collect various metrics using Google Analytics to track user engagement and interactions
 - After a few seconds, our page will redirect students to Marist's Quishing information page
 
 ## Redirect Page
