@@ -25,7 +25,7 @@ html, body {
     text-align: center;
     font-size: 20px;
     color: rgb(108, 104, 104);
-    margin: 100px;
+    margin: 60px;
 }
 
 /* Change sizes for mobile devices */
@@ -40,4 +40,25 @@ html, body {
     #MaristLogo{
         height: 70%;
     }
+    .arrows {
+        height: 30vmin; /* Make arrows smaller on mobile */
+    }
 }
+
+.arrows {
+    display: block; 
+    margin: 0 auto; 
+    height: 5vmin; 
+    pointer-events: none;
+    animation: arrows-spin infinite 6s linear;
+}
+  
+  @keyframes arrows-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+  
