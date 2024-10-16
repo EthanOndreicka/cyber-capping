@@ -61,4 +61,9 @@ html, body {
       transform: rotate(-360deg);
     }
   }
+
+  .how{
+    color: rgb(247, 247, 247);
+    font-size: small;
+  }
   
