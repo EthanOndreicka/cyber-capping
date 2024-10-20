@@ -5,7 +5,7 @@
   		<title>Abroad Experience</title>
   		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  		<meta http-equiv="refresh" content="5; URL=https://www.marist.edu/information-security/cyber-qr" />
+  		<meta http-equiv="refresh" content="7; URL=https://www.marist.edu/information-security/cyber-qr" />
 		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 		<link rel="stylesheet" href="style.css">
 		<!-- Google tag (gtag.js) -->
@@ -16,6 +16,12 @@
 			gtag('js', new Date());
 	
 			gtag('config', 'G-FYP39PWM8B');
+
+			// Track the QR scan event before the redirect happens
+			gtag('event', 'QR_scan', {
+				'event_category': 'QR',
+				'event_label': 'Hancock page',
+			});
 		</script>
   	</head>
 	
@@ -23,7 +29,7 @@
 		<nav class="navbar">
 			<img id="MaristLogo"   src="https://my.marist.edu/myMarist62-theme/images/company_logo.png">
 		</nav>
-  		<p class="text">The Abroad Experience page is loading. <br>If you are not redirected within 5 seconds, click <a href="https://www.marist.edu/information-security/cyber-qr">here</a> to go to the Abroad Experience...</p>
+  		<p class="text">The Abroad Experience page is loading. <br>If you are not redirected within 7 seconds, click <a href="https://www.marist.edu/information-security/cyber-qr">here</a> to go to the Abroad Experience...</p>
 		<img src="/assets/loading-arrows.png" alt="loading arrows" class="arrows">
   	</body>
 
