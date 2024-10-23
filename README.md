@@ -12,9 +12,8 @@ This website is used for collecting data and redirecting them to [Marist's Quish
 
 ## Technology Used
 - HTML, CSS
-- Raspberry Pi running Ubuntu
 - Apache HTTP Server
-- Amazon EC2 T3 Micro Instance
+- Amazon EC2 T2 Micro Instance
 - Google Analytics
 
 ## Redirect Page
